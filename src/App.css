@@ -3,17 +3,18 @@
   height: 150px;
   padding-bottom: 20px;
 }
-.productList{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin: 20px auto 30px auto;
-  
-}
 .pricing{
   color:#b12704 ;
   margin-bottom: 30px;
+}
+.productDisplay{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 .products{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -22,15 +23,7 @@
   height: 400px;
   text-align: center;
 }
-.btnAddCart{
-  z-index: 1;
-}
-.btn-cart{
-  position: relative;
-  left: 0px;
-  top: -30px;
-}
-.btnChange{
-  height: 30px;
-  z-index: 0;
+.cartBtn{
+  background: #198754;
+  color: white;
 }
