@@ -27,3 +27,6 @@
   background: #198754;
   color: white;
 }
+li p:hover,ul{
+  cursor: pointer;
+}
