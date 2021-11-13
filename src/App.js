@@ -111,7 +111,7 @@ const removetocart = (item) =>{
 const total = () => {
     let x = 0
     cart.map((i) => {
-        return x+=1 
+        return x+=1
     })
     return x //if cart is empty it shows default value 0
   }
